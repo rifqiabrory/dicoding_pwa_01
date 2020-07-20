@@ -10,13 +10,12 @@ var urlsToCache = [
   "/assets/css/materialize.min.css",
   "/assets/js/materialize.min.js",
   "/assets/js/initialize.js",
-  "/assets/dummy/data.json",
-  "/assets/dummy/jodohku-yang-mana.jpg",
-  "/assets/dummy/mangga-muda.jpg",
-  "/assets/dummy/suara-dari-dilan.jpg",
-  "/assets/dummy/teman-kondangan.jpg",
-  "/assets/dummy/tersanjung.jpg",
-  "/assets/dummy/toko-barang-mantan.jpg",
+  "/assets/img/jodohku-yang-mana.jpg",
+  "/assets/img/mangga-muda.jpg",
+  "/assets/img/suara-dari-dilan.jpg",
+  "/assets/img/teman-kondangan.jpg",
+  "/assets/img/tersanjung.jpg",
+  "/assets/img/toko-barang-mantan.jpg",
 ];
 
 // daftarkan event listener untuk event install yang akan dipanggil

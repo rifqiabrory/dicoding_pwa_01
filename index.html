@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Movie PWA</title>
+    <title>eMovie</title>
     <meta name="description" content="Movie PWA" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="/manifest.json">
@@ -12,26 +12,20 @@
     <!--Import materialize.css-->
     <link rel="stylesheet" href="./assets/css/materialize.min.css">
     <!--Import Google Icon Font-->
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- navigation -->
-    <nav class="red darken-2" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Movie PWA</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#trends">Trends</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-
-            <ul id="nav-mobile" class="sidenav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#trends">Trends</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <nav class="red darken-2" role="navigation" style="position: fixed;
+    z-index: 99;
+    overflow: hidden;">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">eMovie</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">&#9776;</a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul id="nav-mobile" class="sidenav"></ul>
         </div>
     </nav>
 
@@ -39,7 +33,7 @@
     <div class="container">
         <div class="section">
             <div class="row">
-                <div id="content" style="height: 350px;"></div>
+                <div id="content" style="margin-top: 80px;"></div>
             </div>
         </div>
         <br><br>
@@ -50,7 +44,7 @@
         <div class="container">
             <div class="row">
                 <div class="col l8 s12">
-                    <h5 class="white-text">Movie PWA</h5>
+                    <h5 class="white-text">eMovie</h5>
                     <p class="grey-text text-lighten-4">
                         Movie PWA is a streaming service that allows our members to watch a wide variety of
                         award-winning TV shows, movies, documentaries, and more on thousands of
@@ -59,17 +53,13 @@
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">Navigation</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Home</a></li>
-                        <li><a class="white-text" href="#!">Trends</a></li>
-                        <li><a class="white-text" href="#!">About</a></li>
-                    </ul>
+                    <ul class="topnav"></ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                2020 &copy; Movie PWA - Build with <a class="orange-text text-lighten-3"
+                2020 &copy; eMovie - Build with <a class="orange-text text-lighten-3"
                     href="http://materializecss.com">Materialize</a>
             </div>
         </div>
