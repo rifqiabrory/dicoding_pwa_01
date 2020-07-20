@@ -1,0 +1,14 @@
+{
+    "name": "Movie Late PWA",
+    "short_name": "Movie PWA",
+    "description": "Movie App using PWA System",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [{
+        "src": "../assets/img/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }]
+}
