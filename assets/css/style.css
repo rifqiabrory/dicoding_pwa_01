@@ -39,3 +39,13 @@
 .sidenav-overlay {
     z-index: 0 !important;
 }
+
+.card .card-image:hover {
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 40px;
+    margin-top: 13px;
+    margin-left: -15px;
+}

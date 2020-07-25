@@ -1,13 +1,29 @@
 {
-    "name": "Movie Late PWA",
-    "short_name": "Movie PWA",
+    "name": "E-Movie Late PWA",
+    "short_name": "EMovie",
     "description": "Movie App using PWA System",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#00897B",
     "theme_color": "#00897B",
     "icons": [{
-        "src": "../assets/img/icon.png",
+        "src": "./assets/img/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+    }, {
+        "src": "./assets/img/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+    }, {
+        "src": "./assets/img/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+    }, {
+        "src": "./assets/img/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }, {
+        "src": "./assets/img/android-chrome-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
     }]
