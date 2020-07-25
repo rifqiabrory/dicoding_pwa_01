@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   var elems = document.querySelectorAll(".sidenav");
-  var page = window.location.hash.substr(1);
   M.Sidenav.init(elems);
-  if (page == "") page = "home";
-  loadPage(page);
+
   loadNavigation();
 
   function loadNavigation() {
@@ -36,6 +34,10 @@ document.addEventListener("DOMContentLoaded", function () {
     xhttp.open("GET", "../../navigation/navigation.html", true);
     xhttp.send();
   }
+
+  var page = window.location.hash.substr(1);
+  if (page === "") page = "home";
+  loadPage(page);
 
   function loadPage(page) {
     var xhttp = new XMLHttpRequest();

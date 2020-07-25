@@ -5,7 +5,8 @@ const CACHE_NAME = "movie-pwa-v2";
 var urlsToCache = [
   "/",
   "/index.html",
-  "/assets/img/icon.png",
+  "/assets/css/materialize.min.css",
+  "/assets/css/style.css",
   "/assets/img/logo.png",
   "/assets/img/logo-white.png",
   "/assets/img/favicon-16x16.png",
@@ -13,10 +14,7 @@ var urlsToCache = [
   "/assets/img/android-chrome-192x192.png",
   "/assets/img/android-chrome-512x512.png",
   "/assets/img/favicon.ico",
-  "/assets/css/style.css",
-  "/assets/css/materialize.min.css",
-  "/assets/js/materialize.min.js",
-  "/assets/js/initialize.js",
+  "/assets/img/apple-touch-icon.png",
   "/assets/img/jodohku-yang-mana.jpg",
   "/assets/img/mangga-muda.jpg",
   "/assets/img/suara-dari-dilan.jpg",
@@ -26,12 +24,14 @@ var urlsToCache = [
   "/assets/img/action-and-adventure.jpg",
   "/assets/img/comedies.jpg",
   "/assets/img/romantic.jpg",
-  "/navigation/navigation.html",
   "/pages/home.html",
   "/pages/trends.html",
   "/pages/collection.html",
   "/pages/category.html",
   "/pages/about.html",
+  "/navigation/navigation.html",
+  "/assets/js/materialize.min.js",
+  "/assets/js/initialize.js",
 ];
 
 // daftarkan event listener untuk event install yang akan dipanggil
