@@ -5,6 +5,7 @@ const CACHE_NAME = "movie-pwa-v2";
 var urlsToCache = [
   "/",
   "/index.html",
+  "/manifest.json",
   "/assets/css/materialize.min.css",
   "/assets/css/style.css",
   "/assets/img/logo.png",
